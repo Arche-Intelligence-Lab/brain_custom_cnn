@@ -1,12 +1,12 @@
 # brain_custom_cnn
 
-This repository contains the **research pipeline** used in our study: **BraTS 2020 slice-level pretraining (binary tumor presence)** followed by **ND-5 fine-tuning (4-class diagnosis)**, plus **external validation** on BRISC 2025 and the Brain Tumor MRI Dataset (Mendeley).
+This repository contains the **research pipeline** used in our study.
 
 > **Code availability note:** to support a clean peer-review process, the **full training and evaluation code will be made public after publication**. This README shares the main workflow and selected code snippets from the development notebook.
 
 ---
 
-## 1) What we did (high level)
+## 1) What we did
 
 ### Proposed pipeline
 
@@ -246,7 +246,7 @@ class TestTimeAugmentation:
 - **Learning curves:** train/val loss and accuracy
 - **Confusion matrices:** ND-5 test, BRISC 2025, Mendeley test
 - **Macro metrics:** Accuracy, Precision, Recall, F1, AUC
-- **Optional:** t-SNE embedding visualization and qualitative explainability figures (Grad-CAM++ and saliency)
+- **Additional:** t-SNE embedding visualization and qualitative explainability figures (Grad-CAM++ and saliency)
 
 ---
 
