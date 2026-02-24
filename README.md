@@ -2,8 +2,6 @@
 
 This repository contains the **research pipeline** used in our study.
 
-> **Code availability note:** to support a clean peer-review process, the **full training and evaluation code will be made public after publication**. This README shares the main workflow and selected code snippets from the development notebook.
-
 ---
 
 ## 1) What we did
@@ -40,7 +38,7 @@ Please follow each dataset’s license and usage terms.
 
 ---
 
-## 3) Reproducible pipeline (from the notebook)
+## 3) Reproducible pipeline
 
 ### 3.1 Configuration (paths + core hyperparameters)
 
